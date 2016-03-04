@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music: Orchestral Magic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+		body{
+		background:linear-gradient(to right, #76EECB,#8EE5EE,#6495ED,#8470ff);
+		}
+		h1{
+		margin-bottom: 1%;
+		text-align:center;
+		font-size: 130px;
+		font-family: Lucida Console;
+		}
+		h2{
+		text-align:center;
+		}
+		P{
+		font-size: 20px;
+		padding-right: 8%;
+		padding-left: 8%;
+		}
+		iframe{
+		margin-left:1%;
+		}
+		h3{
+		margin-right:5%;
+		margin-left:5%;
+		margin-bottom:2%;
+		}
+		 .carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+			width: auto;
+			height: 500px;
+			max-height:500px;
+			margin: auto;
+		}
+		  .bg-1 { 
+		background-color: linear-gradient(to right, #76EECB,#8EE5EE,#6495ED,#8470ff); /* Gradient */
+		color: #181818;
+		}
+		.bg-2 { 
+		background-color: #474e5d; /* Dark Blue */
+		color: #ffffff;
+		}
+		.bg-3 { 
+		background-color: #fff; /* White */
+		color: #555555;
+		}
+		.bg-4 { 
+		background-color: #008B8B; /* Seafoam */
+		color: #ffffff;
+		}
+		.bg-5 { 
+		background-color: #8B7B8B; /* Purple */
+		color: #ffffff;
+		}
+		.bg-6 { 
+		background-color: #fff; /* White */
+		color: #555555;
+		}
+		.bg-7 { 
+		background-color: linear-gradient(to right, #76EECB,#8EE5EE,#6495ED,#8470ff); /* Gradient */
+		color: #181818;
+		}
+		
+		ul{
+		text-align:left;
+		font-size: 18px;
+		padding-bottom: 8%;
+		}
+	</style>
+</head>
+<body>
+	<h2><em>A Beginner's Guide to</em></h2>
+	<h1 style="font-size:80px">THE FRONT BOTTOMS</h1>
+	<div class="container">
+  <br>
+  <div id="TFBCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://41.media.tumblr.com/0c14168beee15f0e83aa651edae94914/tumblr_ngum3h07iS1taj79ro1_500.jpg" alt="TFB ART">
+      </div>
+
+      <div class="item">
+        <img src="http://www.thefrontbottoms.com/sites/g/files/g2000005026/f/201507/new-hdr-bg.jpg" alt="TFB MEMBERS">
+      </div>
+    
+      <div class="item">
+        <img src="http://img2-ak.lst.fm/i/u/arO/d7d6cf1266414e88b635b79751aba482" alt="TFB NYC">
+      </div>
+
+      <div class="item">
+        <img src="http://wpimages.freepresshouston.com/2015/11/TFBPaulineNguyen.jpg" alt="TFB LIVE">
+      </div>
+
+      <div class="item">
+        <img src="https://consequenceofsound.files.wordpress.com/2015/10/the-front-bottoms-17.jpg" alt="TFB CAM">
+      </div>
+
+      <div class="item">
+        <img src="http://www.brooklynvegan.com/files/img/ah/the-front-bottoms/music-hall-of-williamsburg/the-front-bottoms-5.jpg" alt="TFB BRIAN">
+      </div>
+
+      <div class="item">
+        <img src="https://secure.static.tumblr.com/324d5c5acd49a90b1552e3d652aa015a/daqufli/4Pcnb8ir6/tumblr_static_tumblr_static_a3nv1sitt0wsgoc8ko0csw40s_640.png" alt="TFB NAME">
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="container-fluid bg-1 text-center">
+  <h2>Who are The Front Bottoms?</h3>
+  <p style="margin-right:7%; margin-left:7%;">The Front Bottoms is an indie-rock band from New Jersey. Started by Brian Sella and Mathew Uychich in 2006, the band now consists of Brian Sella, Mathew Uychich, Tom Warren, and Ciaran O'Donnell. They've released a wide variety of albums and EP's with a wide variety of songs, their most popular being <a href="https://youtu.be/de79J20V5jA">Twin Size Mattress.</a> However, they have many other great songs, and this wesbite is a deeper exploration of their lesser known work.</p>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3>12 Feet Deep</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YY1upeE5dZo" frameborder="0" allowfullscreen></iframe>
+		<p>"12 Feet Deep" is a song off of their 2014 EP <em>Rose.</em> The Front Bottoms have been creating music since 2006, and this was one of the first songs they wrote. As they evolved as a band, they began to change the song, never releasing it, but never letting the idea go. It was also one of six songs that founding member Mathew Uychich's grandmother enjoyed the most. Her name was Rose, so they dedicated an EP to her six favorite songs, including "12 Feet Deep". The album cover is also a drawing of Rose.</p>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Swimming Pool</h3>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/PJQ-eN-qkUg" frameborder="0" allowfullscreen></iframe>
+		<p>"Swimming Pool" is a song off of the 2013 self-titled album, <em>The Front Bottoms.</em> Swimming Pool was also originally on the 2010 EP <em>Slow Dance to Self Rock.</em> Repitive and full of metaphors, this song slows down the self-titled album, and really grounds the point that Brian Sella was trying to get across with <em>The Front Bottoms.</em> Though the album never really "took off", it is often referred to as the jump start of the band, and can be credited for their forward-thinking sound.</p>
+</div>
+
+<div class="container-fluid bg-4 text-center">
+  <h3>Tattooed Tears</h3>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/Wh5LEeTemNs" frameborder="0" allowfullscreen></iframe>
+<p>"Tattooed Tears" is a song off of the 2013 album <em>Talon of the Hawk.</em> Though it never was a hit, the song spoke to many people--largely teenagers--and depicted the type of situation that happens often in real life, but is scarecely mentioned in the media. The lyrics have a deep meaning, and many kids find themselves in the same position as the characters being sung about. Because of this, "Tattooed Tears" has been a fan favorite since its release.</p>
+</div>
+
+<div class="container-fluid bg-5 text-center">
+  <h3>Funny You Should Ask</h3>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/VS_VFGEvWqI" frameborder="0" allowfullscreen></iframe>
+<p>"Funny You Should Ask" is another song off of the 2013 album <em>Talon of the Hawk.</em> The song is simple and reminiscent of when Brian and Mat were younger. It tells the story of a typical high school occurence in which a boy, likely Brian, lives across the street from a beautiful girl named Chelsea. It is clear that this song is about something that happened in the past, as it refers to the home as the boy's parents' house, not his. This suggests that he is just thinking back to a simpler time instead of writing about a current occurence.</p>
+</div>
+
+<div class="container-fluid bg-6 text-center">
+  <h3>Cough It Out</h3>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/mZMUmQ-lhec" frameborder="0" allowfullscreen></iframe>
+<p>"Cough it Out" is a song off of the 2015 album <em>Back on Top.</em> The song has many elements that make it have a very colorful vibe. Though it is a love song, it is not about the typical sappy love story, for it showcases more of the struggles that can happen in a relationship. Many of The Front Bottoms' other songs are known for being more realistic than "day-dreamy" when writing about love, and "Cough it Out" is no exception.</p>
+</div>
+
+<div class="container-fluid bg-7 text-center">
+	<div class="container">
+	<h3>Learn More About The Front Bottoms</h3>
+	<ul class="nav nav-pills nav-stacked">
+			<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="">Information<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="http://www.thefrontbottoms.com/">Official Website</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/The_Front_Bottoms">Wikipedia Page</a></li>
+			<li><a href="https://www.facebook.com/thefrontbottoms">Facebook Page</a></li>                        
+		</ul>
+			</li>
+			<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="">Music<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="https://play.spotify.com/artist/5ictveRyhWRs8Gt8Dvt1hS?play=true&utm_source=open.spotify.com&utm_medium=open">Spotify</a></li>
+			<li><a href="https://thefrontbottoms.bandcamp.com/">BandCamp</a></li>
+			<li><a href="https://www.youtube.com/user/thefrontbottomsmusic/videos">YouTube</a></li>                        
+      </ul>
+	  </li>
+			<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="">Members<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="http://www.alterthepress.com/2010/07/interview-front-bottoms.html">Band Interview</a></li>
+			<li><a href="https://twitter.com/Burivor"></a>Mat Uychich's Twitter</li>
+			<li><a href="http://mindequalsblown.net/interviews/interview-brian-sella-of-the-front-bottoms"></a>Brian Sella Interview</li>                        
+      </ul>
+		</li>
+</div>
+</body>
+</html>
